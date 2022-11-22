@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <meta property="og:title" content="Hjemmeside">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://itstud.hiof.no/~vebjorsh/analyse.html">
+    <meta property="og:description" content="Hjemmesiden til min eksamen">
+    <meta property="og:image" content="https://itstud.hiof.no/~vebjorsh/img/analyse.webp">
+    <meta property="og:image:alt" content="Bilde av en pcskjerm som viser kursen til ulike aksjer">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Analyse av nettsted">
+    <meta name="twitter:description" content="Analyse av nettstedet for eksamen 2022">
+    <meta name="twitter:site" content="@vepziidoo">
+    <meta name="twitter:creator" content="@vepziidoo">
+    <meta name="twitter:image" content="https://itstud.hiof.no/~vebjorsh/img/totalscore.webp">
+    <meta name="twitter:image:alt" content="Bilde av en lighthouse score på 94 av 100">
+    
+    <title>Analyse</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/rsz_logo2.ico">
+</head>
+<body>
+    <div id="gridContainer">
+        <header>
+            <a href="index.html"><img id="logo" src="img/resizedogo2.webp" alt="Bilde av logoen"></a>
+                <!--<a href="https://www.vecteezy.com/free-vector/logo">Logo Vectors by Vecteezy</a>-->
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li class =nav-item><a class="nav-link" href="index.html">Hjem</a></li>
+                        <li class =nav-item><a class="nav-link" href="uuvsseo.html">UU vs SEO</a></li>
+                        <li class =nav-item><a class="nav-link" href="cms.html">CMS</a></li>
+                        <li class =nav-item><a class="nav-link" href="analyse.html">Analyse</a></li>
+                        <li class =nav-item><a class="nav-link" href="kontakt.html">Kontakt oss</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+        </header>
+        <main>
+            <article class="artikkel-box">
+                <div class="artikkel-text">
+                    <h3>Lighthouse analyse</h3>
+                    <img class="analyse-img" src="img/individuellscore1.webp" alt="Viser de fire individuelle rankingene som 86, 95, 100, 83">
+                    <p>Fikk gode resultater fra førstegangsrapporten. Spesielt da «Accessibility» og «Best Practices». Dette viser at siden min følger Universell Utforming (UU) og er lett å bruke for de fleste. Dette vises også ved tilgjengelighetserklæringen der jeg viser hvilke krav jeg mener jeg oppfyller og hvorfor. </p>
+                    <img class="analyse-img" src="img/uukrav.webp" alt="Viser at UU krav 1.1.1, 1.4.3, 2.4.4, 2.4.5, 3.1.4, 3.2.3, og 3.3.2 oppfylles">
+                    <p>Det som måtte endres på var «Performance» og «SEO». Her betyr SEO søkemotoroptimalisering. Informasjonen Lighthouse ga meg tydet på at bildene mine var hovedgrunnen til at «Performance» ikke gjorde det så bra under analysen. De anbefalte at jeg skalerte ned noen bilder og konverterte de til en webp i stedet for jpg eller png. Dette ville føre til at nettsiden min lastet inn raskere og ville kunne gi meg en bedre score.</p>
+                    <img class="analyse-img" src="img/bildeklage.webp" alt="Viser rapporten. Den sier at bildestørrelse og filformat er feil og burde endres">
+                    <p>Jeg konverterte da alle bildene mine til webp og skalerte bildene ned til en mer passende størrelse slik at «Performance» skulle forbedres. Så spesielt at logoen var alt for stor og jeg skalerte den ned fra 1500x1500 til 300x300. </p>
+                    <p>En annen feil Lighthouse pekte på som jeg ikke var klar over var at når sidene ble skalert ned til mobil, ville ca 6% av sidene mine være leselige. Dette var på grunn av en feil jeg hadde gjort da jeg prøvde å skalere ned tekststørrelsen på teksten i tabellen og oppdaget ikke at alt tekst ble mindre. Jeg økte skriftstørrelsen til «calc(1em + 1vw)» for hovedparten av teksten, men beholdt tekstestørrelsen litt mindre for tabellinnholdet. Vil jo selvfølgelig at teksten skal være leselig på mobil.</p>
+                    <img class="analyse-img" src="img/leselighet.webp" alt="Bildet forteller at ca 6% av nettsiden var leselig når den ble åpnet på mobil">
+                    <p>Da disse endringene var gjort ble resultatene fra Lighthouse analysen betraktelig bedre. Både «Performance» og «SEO» hadde gått opp til grønt nivå og totalscorer til nettsiden ble på 94. Med de scorene der var jeg veldig fornøyd og følte ikke trangen til å forbedre noe mer. Hadde jeg hatt mer tid ville jeg selvfølgelig strevet for å oppnå 100 på alt, men det har jeg ikke.</p>
+                    <img class="analyse-img" src="img/individuellscore2.webp" alt="Viser de fire individuelle rankingene som 94, 95, 100, 92">
+                    <img class="analyse-img" src="img/totalscore.webp" alt="Bildet viser at Lightouse ga min nettside en totalscore på 94 ut av 100">
+
+                    <h3>Heuristisk evaluering</h3>
+                    <p>Av de 10 prinsippene så er det noen av de som jeg følte det ikke var noen grunnlag å analysere min nettside gjennom. For eksempel nummer 1: «Visability of system status». Min nettside har veldig lite funksjonalitet så blir feil å vurdere om nettsiden gir rikelig tilbakemelding når det er lite funksjonalitet og det lille som er der, ikke nødvendigvis trengte å fungere. Slik som delingsknapper til sosiale medier, var ikke noe krav om å fungere.</p>
+                    <p>En av prisnippene som er veldig sentral for min nettside er nummer 2: «Match between system and real world». Det prinsippet er litt inne på noe av det samme som universell utformingskravet 3.1.4. Språket i teksten er forståelig for en som ikke spesialiserer seg på feltet og alle forkortelser er beskrevet. Man skal ikke være en ekspert på feltet for å forstå innholdet til nettsiden og det føler jeg man heller ikke trenger her. Språket er skrevet på en enkel måte med gode beskrivelser.</p>
+                    <p>Nummer 4: «Consistency and standards» er også et prinsipp sentralt for min nettside. Igjen så er dette prinsippet inne på noe av det samme som universell utformingskravet 3.2.3. Rekkefølgen på navbaren er konsistent gjennom alle sidene og det er alltid flere måter til samme mål. Oppsettet på de ulike sidene er også ganske like slik at man ikke blir forvirret hver gang man går inn på en ny side.</p>
+                    <p>En av mange ting jeg føler jeg kunne forbedret på var keyboard accessibility. Flere av universell utforminskravene og prinsipp 7 går ut på snarveier, og bruk av tastatur for å komme seg rundt. Dette ble dessverre ikke implementert på min nettside. Skulle gjerne implementert tastatur crawling og passet på at det ikke ble noen feller, men det ble ikke tid. </p>
+                    <p>Det siste prinsippet jeg skal snakke om er nummer 8: «Aesthetics and minimalist design». Slik jeg tolket dette prinsippet så er det en annen måte å si «design uten innhold er pynt». På mine nettsider er det alltid innholdet som er i fokus og det er generelt lite støy på sidene. Dette gjorde jeg bevisst slik at leseren ikke skulle bli distrahert fra innholdet med mye «pynt» og «gøy».</p>
+                    
+                    <a href="index.html">Tilbake til hjemsiden...</a>
+
+                    <div class="kilder">
+                        <ul>
+                            <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
+                            <li><a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fitstud.hiof.no%2F%7Evebjorsh%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext">https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fitstud.hiof.no%2F%7Evebjorsh%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <aside>
+            <div class="deling">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons-->
+            </div>
+        </aside>
+        <footer>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="kontakt.html">Kontakt oss</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n => n.
+        addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }))
+    </script>
+</body>
+</html>
