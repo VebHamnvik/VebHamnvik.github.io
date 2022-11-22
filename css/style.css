@@ -101,6 +101,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 30%;
 }
 
 input[type="submit"] {
@@ -113,7 +114,8 @@ input[type="submit"] {
 }
 
 .input {
-    padding: 0.2em;
+    padding: 0.4em;
+
 }
 
 #melding {
@@ -1002,6 +1004,11 @@ footer ul li a:hover {
     .artikkel-box {
         display:flex;
         padding-bottom: 4rem;
+
+    }
+
+    .artikkel-box h3 {
+        padding-bottom:0;
     }
 
     .artikkel-text {
