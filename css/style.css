@@ -96,12 +96,23 @@ main {
     margin-top:1.5em;
 }
 
+.overskriftkontakt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ikoner {
+    margin-left: 2rem;
+    width: 50px;
+    height: 50px;
+}
+
 #kontaktskjema {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 30%;
 }
 
 input[type="submit"] {
@@ -144,7 +155,7 @@ input[type="submit"] {
 #lenke {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .fa {
@@ -371,7 +382,10 @@ footer ul li a:hover {
     .c4r5 {
         grid-area:c4r5;
     }
-  
+
+    header {
+        margin-bottom:1rem;
+    }
     .hamburger {
         display:block;
     }
@@ -397,7 +411,7 @@ footer ul li a:hover {
         width:100%;
         text-align: center;
         transition: 0.3s;
-        font-size:0.7rem;
+        font-size:1rem;
     }
 
     .nav-menu.active {
@@ -420,6 +434,12 @@ footer ul li a:hover {
         margin-bottom: 0px;
         /*https://stackoverflow.com/questions/34899077/decrease-the-space-between-header-and-paragraph-vertically-in-html*/
     }
+
+    .artikler h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .artikkel-box {
         grid-area: main;
@@ -437,7 +457,6 @@ footer ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex-basis: 60%;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size:calc(0.55em + 1vw);
@@ -446,6 +465,10 @@ footer ul li a:hover {
     .artikkel-text h2 {
         margin-bottom: 0px;
         font-size:calc(1.2em + 1vw);
+    }
+
+    .artikkel-text h3 {
+        margin-bottom: 0px;
     }
     
     .artikkel-text h2 a {
@@ -493,7 +516,8 @@ footer ul li a:hover {
     }
     
     #aside-img {
-        max-width: 13rem;
+        width: 60%;
+        margin-top: 2rem;
         height:auto;
         box-shadow: 0 4px 8px 0 grey;
     }
@@ -713,6 +737,12 @@ footer ul li a:hover {
         /*https://stackoverflow.com/questions/34899077/decrease-the-space-between-header-and-paragraph-vertically-in-html*/
     }
 
+    .artikler h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .artikkel-box {
         grid-area: main;
         display: flex;
@@ -729,13 +759,16 @@ footer ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex-basis: 60%;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 1em;
     }
 
     .artikkel-text h2 {
+        margin-bottom: 0px;
+    }
+
+    .artikkel-text h3 {
         margin-bottom: 0px;
     }
 
@@ -1029,13 +1062,16 @@ footer ul li a:hover {
     .artikkel-text {
         display: flex;
         flex-wrap: wrap;
-        flex-basis: 60%;
         font-size: 1em;
         flex-direction: column;
     }
 
 
     .artikkel-text h2 {
+        margin-bottom: 0px;
+    }
+
+    .artikkel-text h3 {
         margin-bottom: 0px;
     }
 
