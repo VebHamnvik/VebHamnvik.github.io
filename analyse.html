@@ -11,7 +11,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://itstud.hiof.no/~vebjorsh/analyse.html">
     <meta property="og:description" content="Analysen til min eksamen 2022">
-    <meta property="og:image" content="sftp://vebjorsh@itstud.hiof.no/home/vebjorsh/htdocs/img/totalscore.webp">
+    <meta property="og:image" content="https://itstud.hiof.no/~vebjorsh/htdocs/img/analyse.webp">
     <meta property="og:image:alt" content="Bilde av en pcskjerm som viser kursen til ulike aksjer">
 
     <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +19,7 @@
     <meta name="twitter:description" content="Analyse av nettstedet for eksamen 2022">
     <meta name="twitter:site" content="@vepziidoo">
     <meta name="twitter:creator" content="@vepziidoo">
-    <meta name="twitter:image" content="sftp://vebjorsh@itstud.hiof.no/home/vebjorsh/htdocs/img/totalscore.webp">
+    <meta name="twitter:image" content="https://itstud.hiof.no/~vebjorsh/htdocs/img/analyse.webp">
     <meta name="twitter:image:alt" content="Bilde av en lighthouse score på 94 av 100">
     
     <title>Analyse</title>
@@ -48,9 +48,9 @@
         <main>
             <article class="artikkel-box">
                 <div class="artikkel-text">
-                    <h3>Lighthouse analyse</h3>
+                    <h3>Analyse</h3>
                     <img class="analyse-img" src="img/individuellscore1.webp" alt="Viser de fire individuelle rankingene som 86, 95, 100, 83">
-                    <p>Fikk gode resultater fra førstegangsrapporten. Spesielt da «Accessibility» og «Best Practices». Dette viser at siden min følger Universell Utforming (UU) og er lett å bruke for de fleste. Dette vises også ved tilgjengelighetserklæringen der jeg viser hvilke krav jeg mener jeg oppfyller og hvorfor. </p>
+                    <p>Fikk gode resultater fra førstegangsrapporten slik illustrert av bildet over (legger bare ved ett bilde om gangen, men jeg har utført Lighthouse analyse av alle nettstenede mine og valgte den analysen som representerte som en helhet best) Spesielt da «Accessibility» og «Best Practices». Dette viser at siden min følger Universell Utforming (UU) og er lett å bruke for de fleste. Dette vises også ved tilgjengelighetserklæringen der jeg viser hvilke krav jeg mener jeg oppfyller og hvorfor. </p>
                     <p>Det som måtte endres på var «Performance» og «SEO». Her betyr SEO søkemotoroptimalisering. Informasjonen Lighthouse ga meg tydet på at bildene mine var hovedgrunnen til at «Performance» ikke gjorde det så bra under analysen. De anbefalte at jeg skalerte ned noen bilder og konverterte de til en webp i stedet for jpg eller png. Dette ville føre til at nettsiden min lastet inn raskere og ville kunne gi meg en bedre score.</p>
                     <img class="analyse-img" src="img/bildeklage.webp" alt="Viser rapporten. Den sier at bildestørrelse og filformat er feil og burde endres">
                     <p>Jeg konverterte da alle bildene mine til webp og skalerte bildene ned til en mer passende størrelse slik at «Performance» skulle forbedres. Så spesielt at logoen var alt for stor og jeg skalerte den ned fra 1500x1500 til 300x300. </p>
@@ -58,7 +58,11 @@
                     <img class="analyse-img" src="img/leselighet.webp" alt="Bildet forteller at ca 6% av nettsiden var leselig når den ble åpnet på mobil">
                     <p>Da disse endringene var gjort ble resultatene fra Lighthouse analysen betraktelig bedre. Både «Performance» og «SEO» hadde gått opp til grønt nivå og totalscorer til nettsiden ble på 94. Med de scorene der var jeg veldig fornøyd og følte ikke trangen til å forbedre noe mer. Hadde jeg hatt mer tid ville jeg selvfølgelig strevet for å oppnå 100 på alt, men det har jeg ikke.</p>
                     <img class="analyse-img" src="img/individuellscore2.webp" alt="Viser de fire individuelle rankingene som 94, 95, 100, 92">
-                    <img class="analyse-img" src="img/totalscore.webp" alt="Bildet viser at Lightouse ga min nettside en totalscore på 94 ut av 100">
+                    <p>Etter at jeg hadde utvidet nettstedene mine for å svare på oppgaven bedre sank performance. Bildet under viser endringen, og alle de andre sidene hadde veldig lik score. Lighthouse mente at fontawesome.css var unødvendig, men da jeg bruker en font fra de er jeg uenig. Jeg bestemte da at jeg heller lar fontawesome være på mine nettsteder og lar "Performance" være litt lavere. Scoren var nærmere 90 og mulig innsparing var litt over 1 sekund som illustrert i bildet under. Jeg skjønner heller ikke hvordan "Performance var høyere før de endringene da fontawesome var inkludert da også.</p>
+                    <img class="analyse-img" src="img/analysenettsteder.webp" alt="Viser de fire individuelle rankingene som 89, 93, 92, 90">
+                    <img class="analyse-img" src="img/fontawesome_1.webp" alt="Lighthouse mener at fontawesome.css er unødvendig og man kan spare ca 1.16 sekunder ved å fjerne den">
+
+                    <p>Nedenfor er en lenke til tilgjengelighetserklæringen for nettstedene. Den er fylt ut med de 7 kravene jeg valgte ut. Der har jeg skrevet en kommentar om hvorfor jeg mener jeg har oppfyt det kravet og hvilket nivå de spesifikke kravene tilhører</p>
                     <a id="lenke" href="filer/TilgjengelighetserklæringEksamen.pdf">Last ned tilgjengelighetserklæringen her.</a>
 
                     <div id="tableGrid">
@@ -95,7 +99,6 @@
                     <div class="kilder">
                         <ul>
                             <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">https://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
-                            <li><a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fitstud.hiof.no%2F%7Evebjorsh%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext">https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fitstud.hiof.no%2F%7Evebjorsh%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext</a></li>
                         </ul>
                     </div>
                 </div>

@@ -94,12 +94,14 @@ main {
     font-size: 0.75em;
     font-style:italic;
     margin-top:1.5em;
+    display: flex;
+    justify-content: center;
 }
 
 .overskriftkontakt {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
 }
 
 .ikoner {
@@ -126,11 +128,14 @@ input[type="submit"] {
 
 .input {
     padding: 0.4em;
-
+    height: 2rem;
+    width: 10rem;
 }
 
 #melding {
-    padding: 0.2em;
+    padding: 0.4em;
+    height: 4rem;
+    width: 10rem;
 }
 
 #send_inn {
@@ -153,7 +158,6 @@ input[type="submit"] {
 }
 
 #lenke {
-    padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.5em;
 }
@@ -206,6 +210,10 @@ footer {
     font-size: 1.2em;
     background-image:url("../img/backgroundgradient.webp");
     background-size: cover;
+}
+
+footer ul {
+    padding: 0;
 }
 
 footer ul li{
@@ -419,6 +427,8 @@ footer ul li a:hover {
         background-image:url("../img/backgroundgradient.jpg");
         background-size: cover;
         max-width: 100%;
+        justify-content: space-evenly;
+        padding: 0;
     }
 
     .nav-item {
@@ -527,12 +537,19 @@ footer ul li a:hover {
         justify-content: space-between;
     }
 
+    .ikoner {
+        width: 35px;
+        height: 35px;
+    }
+
     #kart {
         max-width: 80%;
     }
     
     footer {
-        font-size:calc(0.4em + 1vw);
+        font-size:calc(0.7em + 1vw);
+        justify-content: center;
+
     }
     
 }
@@ -816,7 +833,7 @@ footer ul li a:hover {
     }
 
     #aside-img {
-        max-width: 250px;
+        max-width: 450px;
         height:auto;
         box-shadow: 0 4px 8px 0 grey;
     }
