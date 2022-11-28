@@ -141,6 +141,12 @@ input[type="submit"] {
     padding:2em 1em;
 }
 
+#lenke {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1em;
+}
+
 .fa {
     padding: 1rem;
     font-size: 1.5rem;
@@ -212,6 +218,10 @@ footer ul li a:hover {
         grid-template-areas: "header header header" "main main main" "aside aside aside" "footer footer footer";
         grid-template-columns: 0.65fr 3fr 0.65fr;
     }
+
+    .fa {
+        width: 1.3rem;
+    }
     
     #tableGrid {
         display: grid;
@@ -224,6 +234,7 @@ footer ul li a:hover {
         "c1r6 c2r6 c3r6 c4r6"
         "c1r7 c2r7 c3r7 c4r7";
         margin-bottom: 2em;
+        padding-top: 2em;
     }
 
     .tablecontent {
@@ -233,12 +244,13 @@ footer ul li a:hover {
         justify-content: center;
         flex-direction: column;
         padding: 0.5em 1em 0.5em 1em;
-        font-size:calc(0.5em + 1vw);
+        font-size:calc(0.3em + 1vw);
     }
 
     .c1r1 {
         grid-area:c1r1;
         border-bottom:0;
+        border-right:0;
     }
 
     .c1r2 {
@@ -444,7 +456,6 @@ footer ul li a:hover {
     .artikkel-img {
         display:flex;
         max-width: 300px;
-        margin-right: 1.5rem;
         margin-top: 2rem;
         box-shadow: 0 4px 8px 0 grey;
         /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
@@ -453,7 +464,6 @@ footer ul li a:hover {
     .analyse-img {
         display:flex;
         max-width: 100%;
-        margin-right: 1.5rem;
         margin-top: 2rem;
         box-shadow: 0 4px 8px 0 grey;
         /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
@@ -520,6 +530,7 @@ footer ul li a:hover {
         "c1r4 c2r4 c3r4 c4r4"
         "c1r5 c2r5 c3r5 c4r5";
         padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .tablecontent {
@@ -535,6 +546,7 @@ footer ul li a:hover {
     .c1r1 {
         grid-area:c1r1;
         border-bottom:0;
+        border-right: 0;
     }
 
     .c1r2 {
@@ -744,6 +756,7 @@ footer ul li a:hover {
         max-width: 100%;
         margin-right: 1.5rem;
         margin-top: 2rem;
+        margin-bottom: 1rem;
         box-shadow: 0 4px 8px 0 grey;
         /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
     }
@@ -802,6 +815,7 @@ footer ul li a:hover {
         "c1r4 c2r4 c3r4 c4r4"
         "c1r5 c2r5 c3r5 c4r5";
         padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .tablecontent {
@@ -817,6 +831,7 @@ footer ul li a:hover {
     .c1r1 {
         grid-area:c1r1;
         border-bottom:0;
+        border-right:0;
     }
 
     .c1r2 {
